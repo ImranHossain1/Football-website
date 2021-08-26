@@ -126,7 +126,7 @@ button:hover{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 50px;
-    padding-left: 200px;
+    padding-left: 100px;
     margin-bottom: 50px;
 }
 .club-heading,.player-heading{
@@ -300,7 +300,6 @@ button:hover{
             padding-right: 50px;
             flex-direction: column;
         }
-
         .banner-title{
             color: white;
             font-size: 36px;
@@ -394,7 +393,6 @@ button:hover{
             padding-right: 50px;
             flex-direction: row;
         }
-
         .banner-title{
             color: white;
             font-size: 36px;
