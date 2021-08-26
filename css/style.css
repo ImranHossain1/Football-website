@@ -52,10 +52,6 @@ button:hover{
     padding-right: 140px;
 }
 .banner-info{
-    /* display: flex;
-    flex-direction: column; */
-    /* align-items: center; */
-    /* padding-top: 54px; */
     padding-top: 0px;
 }
 
@@ -219,7 +215,7 @@ button:hover{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 158px 480px 58px 475px;
+        /* margin: 158px 480px 58px 475px; */
     }
 
     .footer-image img{
@@ -246,4 +242,134 @@ button:hover{
     }
     .copyright{
         font-size: 18px;
+    }
+
+    @media only screen and (max-width:688px){
+        /* .banner, .players-container, .highlights-container, .signup-container,.footer-container{
+            width: 100%;
+        } */
+        header{
+            width: 100%;
+            height: 100%;
+            background-color: #2D25A0;
+            margin-top: 0px;
+        } 
+        nav{
+            visibility: hidden;
+        }
+        .banner{
+            padding-left: 10px;
+            padding-right: 50px;
+            flex-direction: column;
+        }
+
+        .banner-title{
+            color: white;
+            font-size: 36px;
+        }
+        .banner-img img{
+            margin-top: 20px;
+            width: 329px;
+            height: 259.17px;
+            transition: width 1s, height 1s;
+        }
+        /* Player */
+        .players{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            /* padding: 70px 210px 165px 180px; */
+            grid-row-gap: 30px;
+            padding: 70px 5% 165px 8%;
+        }
+        /* Highlights */
+        .highlights-container{
+            flex-direction: column;
+            align-items: center;
+            margin-left: 8%;
+            margin-right: 5%;
+            margin-top: -60px;
+        }
+        .highlights-detail{
+            margin-bottom: 29px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        .highlights-image img{
+            width: 328px;
+            height: 248px;
+        }
+
+        /* Footer */
+        footer{
+            width: 100%;
+        }
+        .footer-image img{
+            height: 63px;
+            width: 275px;
+        }
+        
+    }
+    @media only screen and (min-width:688px) and (max-width:992px){
+        /* .banner, .players-container, .highlights-container, .signup-container,.footer-container{
+            width: 100%;
+        } */
+        header{
+            width: 100%;
+            height: 100%;
+            background-color: #2D25A0;
+            margin-top: 0px;
+        } 
+        .nav-bar{
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 35px;
+        }
+        .banner{
+            padding-left: 50px;
+            padding-right: 50px;
+            flex-direction: row;
+        }
+
+        .banner-title{
+            color: white;
+            font-size: 36px;
+        }
+        .banner-img{
+            margin-left: 20px;
+        }
+        /* Player */
+        .players{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            /* padding: 70px 210px 165px 180px; */
+            grid-row-gap: 30px;
+            padding: 70px 5% 165px 3%;
+        }
+        /* Highlights */
+        .highlights-container{
+            flex-direction: column;
+            align-items: center;
+            margin-left: 8%;
+            margin-right: 5%;
+            margin-top: -60px;
+        }
+        .highlights-detail{
+            margin-bottom: 29px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        .highlights-image img{
+            width: 567px;
+            height: 427px;
+        }
+
+        /* Footer */
+        footer{
+            width: 100%;
+        }
+        .footer-image img{
+            height: 63px;
+            width: 275px;
+        }
+        
     }
