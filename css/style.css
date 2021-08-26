@@ -126,7 +126,7 @@ button:hover{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 50px;
-    padding-left: 100px;
+    padding-left: 50px;
     margin-bottom: 50px;
 }
 .club-heading,.player-heading{
